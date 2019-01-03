@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "react-scripts build && aws s3 cp build s3://joshhaws.com --recursive"
+    "deploy": "react-scripts build && aws s3 cp build s3://joshhaws.com --recursive && aws cloudfront create-invalidation --distribution-id E1C7XO8D9TH8H3 --paths /"
   },
   "eslintConfig": {
     "extends": "react-app"
