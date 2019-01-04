@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import LandingPage from './pages/LandingPage';
+import AboutPage from './pages/AboutPage';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>Josh Haws | Full Stack Dev</div>
-        <div>Comning soon...!!</div>
+        <LandingPage />
+        <AboutPage />
       </div>
     );
   }
