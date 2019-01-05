@@ -36,6 +36,11 @@
       @media (min-width: 768px) {
         flex-direction: row;
       }
+      margin-left: -70px;
+      margin-right: -70px;
+      @media (min-width: 890px) {
+        margin: 0;
+      }
       // @include breakpoint-small-down {
       //   font-size: 1rem;
       // }
