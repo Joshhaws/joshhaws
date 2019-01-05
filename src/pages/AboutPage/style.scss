@@ -15,6 +15,9 @@
   h1 {
     padding: 1rem 0;
     font-size: 3rem;
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: center;
   }
 
   .content-grid {
@@ -22,15 +25,35 @@
   }
 
   .about-wrapper {
-    
+    display: flex;
+    flex-wrap: wrap;
     .about-content {
       font-size: 0.875rem;
       line-height: 1.5rem;
       
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
       // @include breakpoint-small-down {
       //   font-size: 1rem;
       // }
-
+      .left {
+        flex: 1;
+        margin-bottom: 5em;
+      }
+      .right {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        .image-container {
+          height: 20em;
+          border-radius: 50%;
+          border: 10px solid white;
+        }
+        margin-bottom: 5em;
+      }
       p {
         font-weight: 300;
         padding: 0.5rem 0;

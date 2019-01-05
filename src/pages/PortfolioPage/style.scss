@@ -15,6 +15,9 @@
   h1 {
     padding: 1rem 0;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
   }
 
   .content-grid {
@@ -25,6 +28,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: -10px;
+    @media (min-width: 768px) {
+      margin: 0px;
+    }
 
     // @include breakpoint-small-down {
     //   flex-direction: column;

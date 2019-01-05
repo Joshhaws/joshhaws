@@ -24,12 +24,30 @@ const AboutPage = (props, context) => {
         <h1 style={{ color: colorPrimary }}>About</h1>
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
-            <p>
-              I'm passionate about making life better with technology.
-              I develop full stack solutions, and I especially enjoy front-end development and working with Amazon Web Services. 
-              I enjoy learning about new technologies and innovating to solve problems.
-              I thrive in team settings where I can work collaboratively with my peers.
-            </p>
+            <div className="right">
+              <img className="image-container" src={require('../../images/josh.JPG')} />
+            </div>
+            <div className="left">
+              <p>
+                I'm passionate about making life better with technology.
+                I develop full stack solutions, and I especially enjoy front-end development and working with Amazon Web Services. 
+                I enjoy learning about new technologies and innovating to solve problems.
+                I thrive in team settings where I can work collaboratively with my peers.
+              </p>
+              <p>
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. 
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. 
+              </p>
+              <p>
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. 
+                lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
+              </p>
+            </div>
+            
           </div>
         </div>
       </div>
