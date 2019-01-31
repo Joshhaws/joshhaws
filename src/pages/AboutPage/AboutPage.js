@@ -34,7 +34,7 @@ const AboutPage = (props, context) => {
                 I enjoy learning about new technologies and innovating to solve problems.
                 I thrive in team settings where I can work collaboratively with my peers.
               </p>
-              <p>
+              {/* <p>
                 lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
                 lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
                 lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. 
@@ -45,7 +45,7 @@ const AboutPage = (props, context) => {
                 lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
                 lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. 
                 lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum. lorem ipsum.
-              </p>
+              </p> */}
             </div>
             
           </div>
