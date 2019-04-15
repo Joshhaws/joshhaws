@@ -35,9 +35,11 @@
       flex-direction: column;
       @media (min-width: 768px) {
         flex-direction: row;
+      } 
+      @media (min-width: 768px) {
+        margin-left: -70px;
+        margin-right: -70px;
       }
-      margin-left: -70px;
-      margin-right: -70px;
       @media (min-width: 890px) {
         margin: 0;
       }
